@@ -1,0 +1,65 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# === Virtual Environments ===
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# === Web / Secret Environment Variables ===
+.env
+.flaskenv
+instance/
+secrets.json
+*.log
+
+# === VS Code ===
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# === Windows System Files ===
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# === Databases (Local) ===
+*.sqlite3
+*.sqlite3-journal
+
+# === Static Assets / Uploads ===
+# (Uncomment the next line if you want to ignore user-uploaded files)
+# src/app/static/uploads/
